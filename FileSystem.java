@@ -19,6 +19,10 @@ public class FileSystem {
 	public FileSystem() {
 		
 	}
+
+	public Directory getRoot() {
+		return root;
+	}
 	
 	public Directory getWorkingDirectory() {
 		return workingDirectory;
